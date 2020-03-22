@@ -15,6 +15,7 @@ module.exports = {
   parserOptions: {
     ecmaVersion: 2018,
   },
+  plugins: ['html'],
   rules: {
     'comma-dangle': ['error', 'always-multiline'],
     'indent': ['error', 2],
